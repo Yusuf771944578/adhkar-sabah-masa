@@ -1,0 +1,17 @@
+{
+  "name": "أذكاري اليومية المحصنة - درع حصين، ليوم متين",
+  "short_name": "أذكاري",
+  "description": "أذكار الصباح والمساء والنوم والاستيقاظ وما بعد الصلاة بأحاديث صحيحة",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f3d2e",
+  "theme_color": "#1a5d3a",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
