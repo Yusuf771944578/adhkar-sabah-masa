@@ -1,6 +1,13 @@
-# أذكاري | أذكار الصباح والمساء
+# حصني | أذكاري اليومية المُحصِّنة
 
-موقع أذكار الصباح والمساء بالأحاديث الصحيحة والحسنة مع مصادرها.
+الصفحة الرئيسية `index.html` + 5 صفحات فرعية (morning / evening / sleep / wakeup / prayer)
+بملفات مشتركة: `styles.css` + `adhkar-data.js` + `adhkar-app.js` + PWA
+(`manifest.webmanifest` + `sw.js` + أيقونات).
+
+## النشر
+- GitHub Pages (Actions): `https://Yusuf771944578.github.io/adhkar-sabah-masa/`
+- Netlify: `https://adhkar-sabah-masa.netlify.app`
+- مثال صفحة فرعية: `morning.html` بعد أيٍّ من الرابطين.
 
 ## المميزات
 - 🌅 أذكار الصباح (16) + 🌙 المساء (17) + 😴 النوم (13) + 🌤️ الاستيقاظ (5) + 🕌 بعد الصلاة (10)

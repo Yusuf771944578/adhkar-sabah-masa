@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>أذكار النوم | حصني</title>
+<meta name="description" content="أذكار الصباح الصحيحة بمصادرها مع مسبحة إلكترونية">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#1a5d3a">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Amiri+Quran&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="sub">
+  <div class="header-inner">
+    <a class="home-btn" href="index.html">🏠 الرئيسية</a>
+    <h1 id="secTitle">أذكار النوم</h1>
+    <div class="hijri" id="hijri"></div>
+    <div class="toolbar">
+      <div class="controls">
+        <button class="btn" onclick="changeFont(-0.07)" title="تصغير الخط">أ−</button>
+        <button class="btn" onclick="resetFont()" title="حجم افتراضي">حجم الخط: <b id="fontPct">100%</b></button>
+        <button class="btn" onclick="changeFont(0.07)" title="تكبير الخط">أ+</button>
+        <button class="btn" id="themeBtn" onclick="toggleTheme()">🌙 ليلي</button>
+        <button class="btn" id="soundBtn" onclick="toggleSound()">🔊 الصوت</button>
+        <button class="btn" id="vibBtn" onclick="toggleVib()">📳 الاهتزاز</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="progress-wrap">
+  <div class="progress-top"><span id="progText">0 / 0 مكتمل</span><span id="progPct">0%</span></div>
+  <div class="bar"><div id="barFill"></div></div>
+  <div class="streak" id="streak"></div>
+</div>
+
+<main>
+  <div class="info-box" id="timeInfo"></div>
+  <div class="grid" id="cards"></div>
+  <div style="text-align:center;margin-top:1.4rem;display:flex;gap:.6rem;justify-content:center;flex-wrap:wrap">
+    <button class="btn gold" onclick="resetAll()">↺ إعادة التصفير لليوم</button>
+    <a class="btn" href="index.html" style="text-decoration:none">🏠 الرئيسية</a>
+    <button class="btn" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑ العودة للأعلى</button>
+  </div>
+</main>
+
+<footer>
+  <p>📚 <b>منهجية التوثيق:</b> اعتمدنا الأحاديث الصحيحة والحسنة فقط من صحيح البخاري وصحيح مسلم وسنن أبي داود والترمذي والنسائي ومسند أحمد، بتصحيح الشيخ الألباني وابن باز رحمها الله. تجنّبنا الأحاديث الضعيفة.</p>
+  <p>🛠️ إعداد: <b>أ. يوسف سيف</b></p>
+  <div class="contact-row"><a class="contact-btn" href="mailto:YUSUFSEEF6@GMAIL.COM" style="direction:ltr;unicode-bidi:embed">✉️ YUSUFSEEF6@GMAIL.COM</a></div>
+  <div class="contact-row"><a class="contact-btn" href="https://wa.me/967771944578" style="direction:ltr;unicode-bidi:embed">💬 WhatsApp: 967771944578</a><span class="flag">🇾🇪 اليمن</span></div>
+  <p>﴿ فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُوا لِي وَلَا تَكْفُرُونِ ﴾ — البقرة 152</p>
+</footer>
+
+<script>window.SECTION_KEY = 'sleep';</script>
+<script src="adhkar-data.js"></script>
+<script src="adhkar-app.js"></script>
+</body>
+</html>
