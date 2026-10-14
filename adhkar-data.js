@@ -349,3 +349,7 @@ sleep:{key:"sleep",file:"sleep.html",emoji:"😴",title:"أذكار النوم",
 wakeup:{key:"wakeup",file:"wakeup.html",emoji:"🌤️",title:"أذكار الاستيقاظ",desc:"عند القيام من النوم",info:"🌤️ أذكار الاستيقاظ: تقال عند القيام من النوم — ابدأ بالحمدلة، ثم اذكر الله وتوضأ وصلِّ.",list:WAKEUP},
 prayer:{key:"prayer",file:"prayer.html",emoji:"🕌",title:"أذكار بعد الصلاة",desc:"دبر كل صلاة مكتوبة",info:"🕌 أذكار بعد الصلاة: تقال دبر كل صلاة مكتوبة — ابدأ بالاستغفار ثلاثًا ثم التهليل والتسبيح.",list:PRAYER}
 };
+
+/* تصدير صريح لكائن النافذة (const لا تظهر على window تلقائيًا) */
+window.FULL = FULL;
+window.SECTIONS = SECTIONS;

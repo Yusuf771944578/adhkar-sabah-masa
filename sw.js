@@ -1,5 +1,5 @@
 /* أذكاري اليومية المحصنة - Service Worker للعمل بدون إنترنت */
-const CACHE = 'adhkari-v2';
+const CACHE = 'adhkari-v3';
 const CORE = ['./', './index.html', './morning.html', './evening.html', './sleep.html', './wakeup.html', './prayer.html', './styles.css', './adhkar-data.js', './adhkar-app.js', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', (e) => {
